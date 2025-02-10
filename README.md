@@ -4,7 +4,7 @@
 
 ## 📌 But du challenge
 
-Durant 14 jours, je vais réaliser un projet en JavaScript par jour pour améliorer ma logique de programmation et mes compétences en HTML, CSS et JavaScript. 
+Durant 14 jours, je vais réaliser 1 projet en JavaScript par jour pour améliorer ma logique de programmation et mes compétences en HTML, CSS et JavaScript. 
 
 Ce défi me permettra d'explorer différente manière d'aborder des problèmes de programmation, de renforcer ma capacité à structurer mon code et de découvrir de nouvelles fonctionnalités du langage.
 
@@ -69,3 +69,5 @@ cd Defi-Javascript
 
 2. Ouvrir un projet avec un navigateur (index.html) ou utiliser Live Server sur VS Code.
 
+
+![Mxxouu's Stats](https://github-readme-stats.vercel.app/api?username=Mxxouu&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
