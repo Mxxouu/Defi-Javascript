@@ -14,7 +14,7 @@ En travaillant sur ces projets variés, je vais également apprendre à utiliser
 
 ### Semaine 1️⃣ : 
 
-#### - Jour 1 : Générateur de dégradés 🎨	
+#### - Jour 1 : [Générateur de dégradés](https://github.com/Mxxouu/Defi-Javascript/tree/main/1.%20G%C3%A9n%C3%A9rateur%20de%20d%C3%A9grad%C3%A9) 🎨	
 Génère un dégradé CSS avec affichage du code et choix des couleurs.
 
 #### - Jour 2 : Générateur de mots de passe sécurisé 🔐	
