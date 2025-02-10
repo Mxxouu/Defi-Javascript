@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Generateur de degradé</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body>
+        <section class="container">
+            <div class="generategradient">
+
+                <div class="text">
+                    <h1>Générateur de dégradé</h1>
+                    <p>Choisissez 2 couleurs pour faire un dégradé</p>
+                </div>
+
+                <div class="choicecolor">
+                    <input onchange="changercouleur('1')" type="color" id="color1" value="#FFFFFF"> <input type="text" id="res1" value="#FFFFFF" disabled> <br>
+                    <input onchange="changercouleur('2')" type="color" id="color2" value="#000000"> <input type="text" id="res2" value="#000000" disabled>
+                    <select onchange="changeangle()" id="selectangle">
+                        <option value="45">45 degrés</option>
+                        <option value="90" selected>90 degrés</option>
+                        <option value="135">135 degrés</option>
+                        <option value="180">180 degrés</option>
+                        <option value="225">225 degrés</option>
+                        <option value="270">270 degrés</option>
+                        <option value="315">315 degrés</option>
+                        <option value="360">360/0 degrés</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="text" id="codecssgradient" value="background: linear-gradient(90deg, #FFFFFF, #000000)">
+                </div>
+
+            </div>
+        </section> 
+        <script src="main.js"></script>       
+    </body>
+</html>
