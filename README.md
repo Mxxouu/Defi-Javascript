@@ -68,6 +68,3 @@ cd Defi-Javascript
 ```
 
 2. Ouvrir un projet avec un navigateur (index.html) ou utiliser Live Server sur VS Code.
-
-
-![Mxxouu's Stats](https://github-readme-stats.vercel.app/api?username=Mxxouu&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
