@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Générateur de mots de passe</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body>
+        <section class="container">
+            <div class="password">
+                <div class="text">
+                    <h1>Générateur de mot de passe</h1>
+                    <p>Bienvenue sur un générateur de mots de passe <br> complètement sécurisé et personnalisable.</p>
+                </div>
+                <div class="options">
+                    <h3>Options :</h3> 
+                    <input type="number" id="numberofcharacters" placeholder="12" value="12" > <label for="numberofcharacters">Longueur du mot de passe</label> <br>
+                    <input type="checkbox" id="capitalletters"> <label for="capitalletters"> Majuscules</label><br>
+                    <input type="checkbox" id="lowercaseletters"> <label for="lowercaseletters"> Minuscules</label><br>
+                    <input type="checkbox" id="numbers"> <label for="numbers"> Chiffres</label><br>
+                    <input type="checkbox" id="specialcharacters"> <label for="specialcharacters"> Caractères spéciaux</label>
+                </div>
+                <div class="generatepassword">
+                    <input type="text" id="result" value="Resultat du générateur" disabled>
+                    <button onclick="generatepass()">Générer</button>
+                </div>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
