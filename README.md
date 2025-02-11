@@ -17,7 +17,7 @@ En travaillant sur ces projets variés, je vais également apprendre à utiliser
 #### - Jour 1 : [Générateur de dégradés](https://github.com/Mxxouu/Defi-Javascript/tree/main/1.%20G%C3%A9n%C3%A9rateur%20de%20d%C3%A9grad%C3%A9s) 🎨	
 Génère un dégradé CSS avec affichage du code et choix des couleurs.
 
-#### - Jour 2 : Générateur de mots de passe sécurisé 🔐	
+#### - Jour 2 : [Générateur de mots de passe sécurisé](https://github.com/Mxxouu/Defi-Javascript/tree/main/2.%20G%C3%A9n%C3%A9rateur%20de%20mots%20de%20passe) 🔐	
 Crée un mot de passe aléatoire avec options personnalisables.
 
 #### - Jour 3 : Générateur de citations aléatoires 📜	
