@@ -20,7 +20,7 @@ Génère un dégradé CSS avec affichage du code et choix des couleurs.
 #### - Jour 2 : [Générateur de mots de passe sécurisé](https://github.com/Mxxouu/Defi-Javascript/tree/main/2.%20G%C3%A9n%C3%A9rateur%20de%20mots%20de%20passe) 🔐	
 Crée un mot de passe aléatoire avec options personnalisables.
 
-#### - Jour 3 : Générateur de citations aléatoires 📜	
+#### - Jour 3 : [Générateur de citations aléatoires](https://github.com/Mxxouu/Defi-Javascript/tree/main/3.%20G%C3%A9n%C3%A9rateur%20de%20citations%20al%C3%A9atoires)📜	
 Affiche une citation différente à chaque clic. (Quelques options seront rajoutés si trop facile à réaliser)
 
 #### - Jour 4 : Jeu du "Pierre, Feuille, Ciseaux" ✊📄✂️
