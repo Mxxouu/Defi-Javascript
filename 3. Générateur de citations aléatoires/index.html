@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Générateur de citations</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body>
+        <section class="container">
+            <div class="divquote">
+                <div class="title">
+                    <h1>Bienvenue sur le générateur <br>de citations aléatoire !</h1>
+                </div>
+                <div class="options">
+                    <div class="firstoptions">
+                        <label for="quotenumbers">Séléctionner le nombre : </label>
+                        <input type="number" id="quotenumbers" min="1" max="5" value="1">
+                    </div>
+                    <div class="secondoptions">
+                        <label for="quotecategory">Séléctionner la catégorie : </label>
+                        <select id="quotecategory">
+                            <option value=motivation>Motivation</option>
+                            <option value=philosophy selected>Philosophie</option>
+                            <option value=humor>Humour</option>
+                            <option value=love>Amour</option>
+                            <option value=creativity>Creativité</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="generatequote">
+                    <button onclick="generatequote()" class="buttonquote" >Générer</button>
+                </div>
+                <div id="quotes">
+
+                </div>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
