@@ -23,7 +23,7 @@ Crée un mot de passe aléatoire avec options personnalisables.
 #### - Jour 3 : [Générateur de citations aléatoires](https://github.com/Mxxouu/Defi-Javascript/tree/main/3.%20G%C3%A9n%C3%A9rateur%20de%20citations%20al%C3%A9atoires)📜	
 Affiche une citation différente à chaque clic. (Quelques options seront rajoutés si trop facile à réaliser)
 
-#### - Jour 4 : Jeu du "Pierre, Feuille, Ciseaux" ✊📄✂️
+#### - Jour 4 : [Jeu du "Pierre, Feuille, Ciseaux"](https://github.com/Mxxouu/Defi-Javascript/tree/main/4.%20Jeu%20du%20Pierre%20Feuille%20Ciseaux) ✊📄✂️
 Un jeu interactif où l'utilisateur affronte l’ordinateur, avec un affichage des scores et une logique aléatoire.
 
 #### - Jour 5 : Météo en temps réel 🌦
