@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333333;
+    color: white;
+    font-family: "Poppins", normal;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.computer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.stoneleafscissors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 40px;
+}
+
+.text p {
+    font-size: 25px;
+}
+.buttonchoice button {
+    width: 20vh;
+    height: 20vh;
+    font-size: 14vh;
+    margin: 30px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.buttonchoice button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0;
+}
+
+.result {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.result h2 {
+    font-size: 40px;
+}
+.result p {
+    font-size: 100px;
+}
+
+.result button {
+    height: 10vh;
+    width: 20vh;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: black;
+    font-family: "Poppins", normal;
+    font-size: 25px;
+
+}
+
+.result button:hover {
+    background-color: grey;
+    border: 2px solid grey;
+}
+
