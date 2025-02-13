@@ -1,1 +1,1 @@
-![Preview Projet 1](https://github.com/Mxxouu/Defi-Javascript/tree/main/Screenshots/Projet1.png)
+![Preview Projet 1](../Screenshots/Projet1.png)
