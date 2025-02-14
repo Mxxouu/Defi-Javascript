@@ -26,7 +26,7 @@ Affiche une citation différente à chaque clic. (Quelques options seront rajout
 #### - Jour 4 : [Jeu du "Pierre, Feuille, Ciseaux"](https://github.com/Mxxouu/Defi-Javascript/tree/main/4.%20Jeu%20du%20Pierre%20Feuille%20Ciseaux) ✊📄✂️
 Un jeu interactif où l'utilisateur affronte l’ordinateur, avec un affichage des scores et une logique aléatoire.
 
-#### - Jour 5 : Météo en temps réel 🌦
+#### - Jour 5 : [Météo en temps réel](https://github.com/Mxxouu/Defi-Javascript/tree/main/5.%20M%C3%A9t%C3%A9o%20en%20temps%20r%C3%A9el) 🌦
 Affiche la météo d’une ville saisie par l’utilisateur en utilisant une API météo. Possibilité d’ajouter des icônes dynamiques et une géolocalisation automatique.
 
 #### - Jour 6 : Jeu du Morpion (TicTacToe) ❌⭕
