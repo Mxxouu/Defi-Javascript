@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Météo en temps réel</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body>
+        <section class="container">
+            <div class="weather">
+                <div class="search-bar">
+                    <input type="text" class="city-search" placeholder="Écrivez une ville ici">
+                    <button onclick="searchweather()"><img src="" alt="">&#128269;</button>
+                </div>
+                <div class="weather-result">
+                    <div class="box-weather">
+                        <div class="box-temp">
+                            <p class="icon-temp"></p>
+                            <p class="temp"></p>
+                            <p class="city"></p>
+                        </div>
+                        <div class="box-informations">
+                            <p class="humidity"></p>
+                            <p class="wind-speed"></p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
