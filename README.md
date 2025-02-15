@@ -29,7 +29,7 @@ Un jeu interactif où l'utilisateur affronte l’ordinateur, avec un affichage d
 #### - Jour 5 : [Météo en temps réel](https://github.com/Mxxouu/Defi-Javascript/tree/main/5.%20M%C3%A9t%C3%A9o%20en%20temps%20r%C3%A9el) 🌦
 Affiche la météo d’une ville saisie par l’utilisateur en utilisant une API météo. Possibilité d’ajouter des icônes dynamiques et une géolocalisation automatique.
 
-#### - Jour 6 : Jeu du Morpion (TicTacToe) ❌⭕
+#### - Jour 6 : [Jeu du Morpion (TicTacToe)](https://github.com/Mxxouu/Defi-Javascript/tree/main/6.%20Jeu%20du%20Morpion) ❌⭕
 Un jeu où deux joueurs s'affrontent sur un plateau 3x3, avec détection automatique du gagnant. Une version contre l'ordinateur pourrait être ajoutée en bonus.
 
 #### - Jour 7 : App "Pomodoro" ⏳
