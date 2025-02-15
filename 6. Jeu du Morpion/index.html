@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeu du Morpion</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body>
+        <section class="container">
+            <div class="morpion">
+                <div class="choose-gamemode">
+                    <div class="text-gamemode">
+                        <h1>Bienvenue sur le Jeu du Morpion</h1>
+                        <p>Veuillez choisir le mode de jeu qui vous plait !</p>
+                    </div>
+                    <div class="gamemode">
+                        <button onclick="gamemode(1)">Joueur contre Joueur</button>
+                        <button onclick="gamemode(2)">Joueur contre Ordinateur </button>
+                    </div>
+                </div>
+                <div class="game">
+                    <p class="playerX">Joueur X : <span class="scoreX"></span></p>
+                    <p class="playerO"><span class="scoreO"></span> : Joueur O</p>
+                    <div class="text-game">
+                        <span class="text"></span>
+                    </div>
+                    <div class="gamedesign">
+                        <button onclick="choosethis(this)"></button>
+                        <button onclick="choosethis(this)"></button>
+                        <button onclick="choosethis(this)"></button> <br>
+                        <button onclick="choosethis(this)"></button>
+                        <button onclick="choosethis(this)"></button>
+                        <button onclick="choosethis(this)"></button> <br>
+                        <button onclick="choosethis(this)"></button>
+                        <button onclick="choosethis(this)"></button>
+                        <button onclick="choosethis(this)"></button>
+                    </div>
+                    <div class="redo">
+                        <button onclick="redo()">Recommencer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="main.js"></script>
+    </body>
+</html>
