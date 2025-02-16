@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>App Pomodoro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="container">
+            
+            <div class="text">
+                <h1>Pomodoro Timer &#127813;</h1>
+            </div>
+            <div class="pomodoro">
+                <div class="chooseButton">
+                    <button class="pomodoroButton" onclick="choosebutton('pomodoro')">Pomodoro</button>
+                    <button class="shortBreakButton" onclick="choosebutton('shortBreak')">Courte pause</button>
+                    <button class="longBreakButton" onclick="choosebutton('longBreak')">Long pause</button>
+                </div>
+                <div class="chooseTimer">
+                    <p class="timer"></p>
+                </div>
+                <div class="startButton">
+                    <button class="start" onclick="setInterval(showTime(), startTimer())">Commencer</button>
+                </div>
+                <div class="endAndBreakButtons">
+                    <button class="break" onclick="breakInterval()">Pause</button>
+                    <button class="end" onclick="endInterval()">Arreter</button>
+                </div>
+            </div> 
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>

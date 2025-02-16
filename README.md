@@ -32,7 +32,7 @@ Affiche la météo d’une ville saisie par l’utilisateur en utilisant une API
 #### - Jour 6 : [Jeu du Morpion (TicTacToe)](https://github.com/Mxxouu/Defi-Javascript/tree/main/6.%20Jeu%20du%20Morpion) ❌⭕
 Un jeu où deux joueurs s'affrontent sur un plateau 3x3, avec détection automatique du gagnant. Une version contre l'ordinateur pourrait être ajoutée en bonus.
 
-#### - Jour 7 : App "Pomodoro" ⏳
+#### - Jour 7 : [App "Pomodoro"](https://github.com/Mxxouu/Defi-Javascript/tree/main/7.%20App%20Pomodoro) ⏳
 Un timer interactif pour gérer des sessions de travail (25 min de focus / 5 min de pause). Options bonus : personnalisation des durées et notification sonore.
 
 
