@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeu de cartes mémoires</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="container">
+            <p class="timer">Temps restant : 30s</p>
+            <p class="timeTaken">Vous avez mis : 0s</span></p>
+            <div class="text">
+                <h1>Retrouve les paires de cartes correspondantes !</h1>
+                <p>Vous avez 30 secondes à partir du moment ou vous cliquez sur l'une des cases.</p>
+            </div>
+            <div class="card">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+                <img src="images/0.svg" onclick="returnCard(this)" alt="">
+            </div>
+            <div class="resetGame">
+                <button onclick="resetGame()">Recommencer</button>
+            </div>
+        </section>
+        
+        <script src="main.js"></script>
+    </body>
+</html>

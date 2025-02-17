@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Poppins";
+    color: black;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.timer {
+    position : absolute;
+    top: 2rem;
+    left: 4rem;
+    font-size: 1.4rem;
+}
+
+
+.timeTaken {
+    display: none;
+    position : absolute;
+    top: 2rem;
+    right: 4rem;
+    font-size: 1.5rem;
+    color: green;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.card img {
+    background-color: rgba(0, 0, 0, 0.575);
+    border: 0;
+    border-radius: 1.3rem;
+    border: 1px solid ;
+    padding: 2rem 1rem 2rem 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.card img:hover {
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.resetGame {
+    display: none;
+}
+
+.resetGame button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1.3rem;
+    border: 0 solid ;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 1.2rem;
+    background-color: red;
+}
+
+.resetGame button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px 2px black;
+}
+
+.resetGame button:active {
+    transform: translateY(0px);
+    box-shadow: 0 0 0 0 black;
+}

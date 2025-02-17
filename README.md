@@ -40,7 +40,7 @@ Un timer interactif pour gérer des sessions de travail (25 min de focus / 5 min
 
 ### Semaine 2️⃣ :
 
-#### - Jour 8 : Jeu de cartes mémoires 🃏
+#### - Jour 8 : [Jeu de cartes mémoires](https://github.com/Mxxouu/Defi-Javascript/tree/main/8.%20Jeu%20de%20cartes%20m%C3%A9moires) 🃏
 Un jeu où l'utilisateur doit retrouver les paires de cartes correspondantes. Ajout d'un chronomètre et d’un système de score possible.
 
 #### - Jour 9 : Jeu Cookie Clicker 🍪
