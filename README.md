@@ -43,7 +43,7 @@ Un timer interactif pour gérer des sessions de travail (25 min de focus / 5 min
 #### - Jour 8 : [Jeu de cartes mémoires](https://github.com/Mxxouu/Defi-Javascript/tree/main/8.%20Jeu%20de%20cartes%20m%C3%A9moires) 🃏
 Un jeu où l'utilisateur doit retrouver les paires de cartes correspondantes. Ajout d'un chronomètre et d’un système de score possible.
 
-#### - Jour 9 : Jeu Cookie Clicker 🍪
+#### - Jour 9 : [Jeu Cookie Clicker](https://github.com/Mxxouu/Defi-Javascript/tree/main/9.%20Jeu%20Cookie%20Clicker) 🍪
 Un mini-jeu où tu cliques sur un cookie pour accumuler des points et débloquer des améliorations. Possibilité d’ajouter un mode automatique avec des upgrades.
 
 #### - Jour 10 : Animation 3D avec Three.js 🎥

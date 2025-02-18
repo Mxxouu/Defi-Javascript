@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {  
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: "Poppins";
+}
+
+/* Section */
+section {
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CookieClicker */
+.cookieClicker {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    gap: 7rem;
+}
+
+/* CookieClicker p */
+.cookieClicker p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* CookieClicker button */
+.cookieClicker button {
+    background: url(images/cookie.svg);
+    background-size: cover; 
+    border: 0;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+/* ErrorMessage */
+.errorMessage {
+    display: none;
+    position: fixed;
+    top: 10%;
+    text-align: center;
+    color: red;
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+
+/* CookieEnhancement */
+.CookieEnhancement {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgba(128, 128, 128, 0.267);
+}
+
+/* CookieEnhancement item1, item2, item3, item4, item5 */
+.CookieEnhancement-item1, .CookieEnhancement-item2, .CookieEnhancement-item3, .CookieEnhancement-item4, .CookieEnhancement-item5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(128, 128, 128, 0.267);
+    border-radius: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* CookieEnhancement item1 img, item2 img, item3 img, item4 img, item5 img */
+.CookieEnhancement-item1-img img, .CookieEnhancement-item2-img img, .CookieEnhancement-item3-img img, .CookieEnhancement-item4-img img, .CookieEnhancement-item5-img img {
+    width: 5rem;
+    height: 5rem;
+}
+
+/* CookieEnhancement item1 text, item2 text, item3 text, item4 text, item5 text */
+.CookieEnhancement-item1-text, .CookieEnhancement-item2-text, .CookieEnhancement-item3-text, .CookieEnhancement-item4-text, .CookieEnhancement-item5-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* CookieEnhancement item1 text title, item2 text title, item3 text title, item4 text title, item5 text title */
+.CookieEnhancement-item1-text-title, .CookieEnhancement-item2-text-title, .CookieEnhancement-item3-text-title, .CookieEnhancement-item4-text-title, .CookieEnhancement-item5-text-title {
+    text-transform: uppercase;
+}
+
+/* CookieEnhancement item1 text price, item2 text price, item3 text price, item4 text price, item5 text price */ 
+.CookieEnhancement-item1-text-price, .CookieEnhancement-item2-text-price, .CookieEnhancement-item3-text-price, .CookieEnhancement-item4-text-price, .CookieEnhancement-item5-text-price {
+    color: rgb(184, 184, 184);
+}
+
+/* ResetCookies */  
+.resetCookies {
+    display: block;
+    position: fixed;
+    top: 2%;
+    right: 1%;
+}
+
+/* ResetCookies button */
+.resetCookies-button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 0;
+    background-color: rgba(128, 128, 128, 0.267);
+    color: white;
+}
+
+/* ResetCookies button hover */
+.resetCookies-button:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px 0 white;
+}

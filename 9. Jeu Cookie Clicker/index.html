@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeu Cookie Clicker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="container">
+
+            <div class="cookieClicker">
+                <p>Nombre de cookies : <span id="cookieCount">0</span> <br> Cookie par click : <span id="cookiePerClick">1</span></p>
+                <button></button>
+            </div>
+            <div class="errorMessage">
+                <p>Vous n'avez pas assez de cookies pour acheter ce boost ! <br> il vous manque <span id="MissingCookies"></span> cookies</p>
+            </div>
+            <div class="CookieEnhancement">
+                <div class="CookieEnhancement-item1">
+                    <div class="CookieEnhancement-item1-img">
+                        <img src="images/bread-svgrepo-com.svg">
+                    </div>
+                    <div class="CookieEnhancement-item1-text">
+                        <p class="CookieEnhancement-item1-text-title">Pain</p>
+                        <p class="CookieEnhancement-item1-text-description">+1/click</p>
+                        <p class="CookieEnhancement-item1-text-price">50 cookies</p>
+                    </div>
+                </div>
+                <div class="CookieEnhancement-item2">
+                    <div class="CookieEnhancement-item2-img">
+                        <img src="images/cake-svgrepo-com.svg">
+                    </div>
+                    <div class="CookieEnhancement-item2-text">
+                        <p class="CookieEnhancement-item2-text-title">Fromage</p>
+                        <p class="CookieEnhancement-item2-text-description">+5/click</p>
+                        <p class="CookieEnhancement-item2-text-price">500 cookies</p>
+                    </div>
+                </div>
+                <div class="CookieEnhancement-item3">
+                    <div class="CookieEnhancement-item3-img">
+                        <img src="images/carrot-svgrepo-com.svg">
+                    </div>
+                    <div class="CookieEnhancement-item3-text">
+                        <p class="CookieEnhancement-item3-text-title">Carotte</p>
+                        <p class="CookieEnhancement-item3-text-description">+10/click</p>
+                        <p class="CookieEnhancement-item3-text-price">2000 cookies</p>
+                    </div>
+                </div>
+                <div class="CookieEnhancement-item4">
+                    <div class="CookieEnhancement-item4-img">
+                        <img src="images/hamburger-svgrepo-com.svg">
+                    </div>
+                    <div class="CookieEnhancement-item4-text">
+                        <p class="CookieEnhancement-item4-text-title">Hamburger</p>
+                        <p class="CookieEnhancement-item4-text-description">+50/click</p>
+                        <p class="CookieEnhancement-item4-text-price">10000 cookies</p>
+                    </div>
+                </div>
+                <div class="CookieEnhancement-item5">
+                    <div class="CookieEnhancement-item5-img">
+                        <img src="images/pizza-svgrepo-com.svg">
+                    </div>
+                    <div class="CookieEnhancement-item5-text">
+                        <p class="CookieEnhancement-item5-text-title">Pizza</p>
+                        <p class="CookieEnhancement-item5-text-description">+100/click</p>
+                        <p class="CookieEnhancement-item5-text-price">50000 cookies</p>
+                    </div>
+                </div>
+            </div>
+            <div class="resetCookies">
+                <button class="resetCookies-button">Reset</button>
+            </div>
+        </section>
+
+        <script src="main.js"></script>
+    </body>
+</html>
