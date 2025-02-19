@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "three": "^0.173.0",
+    "three-noise": "^1.1.2"
+  },
+  "devDependencies": {
+    "vite": "^6.1.1"
+  }
+}

@@ -46,8 +46,8 @@ Un jeu où l'utilisateur doit retrouver les paires de cartes correspondantes. Aj
 #### - Jour 9 : [Jeu Cookie Clicker](https://github.com/Mxxouu/Defi-Javascript/tree/main/9.%20Jeu%20Cookie%20Clicker) 🍪
 Un mini-jeu où tu cliques sur un cookie pour accumuler des points et débloquer des améliorations. Possibilité d’ajouter un mode automatique avec des upgrades.
 
-#### - Jour 10 : Animation 3D avec Three.js 🎥
-Création d’une animation 3D interactive avec la librairie Three.js. Un cube en rotation ou une scène plus complexe en fonction du temps disponible.
+#### - Jour 10 : [Terrain de terre 3D avec Three.js](https://github.com/Mxxouu/Defi-Javascript/tree/main/10.%20Terrain%20de%20cube%203D) 🎥
+Création d’un terrain de terre 3D avec la librairie Three.js. Un terrain de terre avec des cubes en 3D et avec une caméra qui peut se déplacer.
 
 #### - Jour 11 : Générateur de scroll infini 📜
 Un système de scroll infini comme Pinterest ou Instagram, avec chargement dynamique des contenus à partir d’une API.
